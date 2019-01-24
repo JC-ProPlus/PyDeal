@@ -18,12 +18,20 @@ elif bestLang==5:
     print('C#，是吗？')
 elif bestLang==6:
     print('Ruby，是吗？')
+elif bestLang==114514:
+    print('恭喜，进入上帝模式！')
 else:
     print('数据错误！')
-print('知道吗？我喜欢PHP。')
-input('按任意键继续...')
-try:
-    while 'JustPHP':
-        sys.stdout.write('PHP是世界上最好的语言。')
-except KeyboardInterrupt as JustPHP:
-    sys.exit(JustPHP)
+if bestLang==114514:
+    print('需要更改些什么吗？')
+    command = input('[PHP@PHP / ]#')
+    for bestLang in range(9999999999999999999999999999):
+        print('PHP是世界上最好的语言。')
+else:
+    print('知道吗？我喜欢PHP。')
+    input('按任意键继续...')
+    try:
+        while 'JustPHP':
+            sys.stdout.write('PHP是世界上最好的语言。\n')
+    except KeyboardInterrupt as JustPHP:
+        sys.exit(JustPHP)
